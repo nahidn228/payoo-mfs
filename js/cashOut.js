@@ -16,6 +16,6 @@ document
       document.getElementById("cashOut-amount").value = "";
       document.getElementById("cashOut-pin").value = "";
     } else {
-      alert("Failed to Add Money ! please try again");
+      alert("Failed to Cash Out ! please try again");
     }
   });
