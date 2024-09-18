@@ -12,5 +12,10 @@ document
       const updateBalance = newBalance - newCashOutAmount;
 
       document.getElementById("account-balance").innerText = updateBalance;
+
+      document.getElementById("cashOut-amount").value = "";
+      document.getElementById("cashOut-pin").value = "";
+    } else {
+      alert("Failed to Add Money ! please try again");
     }
   });

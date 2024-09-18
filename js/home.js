@@ -16,6 +16,9 @@ document
       const newAmount = accountBalance + inputAmount;
 
       document.getElementById("account-balance").innerText = newAmount;
+
+      document.getElementById("enter-amount").value = "";
+      document.getElementById("pin-number").value = "";
     } else {
       alert("Failed to Add Money ! please try again");
     }
